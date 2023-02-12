@@ -1,6 +1,10 @@
 body {
     background-image: linear-gradient(to bottom, #d8d8d7, #f7f7f6);
     font-family: 'Open Sans', sans-serif;
+    background-color: #e5e5f7;
+    opacity: 0.6;
+    background-image: radial-gradient(#444cf7 0.45px, #e5e5f7 0.45px);
+    background-size: 9px 9px;
   }
   
   div {
