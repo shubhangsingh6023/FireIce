@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(to bottom, #d8d8d7, #f7f7f6);
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  div {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: white;
+    animation: fadeIn 1s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    animation: slideInLeft 1s ease;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    animation: slideInRight 1s ease;
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  li {
+    margin: 10px 0;
+    animation: fadeIn 1s ease;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  li:active {
+    background-color: #ddd;
+  }
+  
