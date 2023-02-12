@@ -14,7 +14,10 @@ You need to have Node.js and npm installed on your machine.
 
 1. Clone the repository:
 
-### `git clone https://github.com/shubhangsingh6023/FireIce`
+### 
+```
+git clone https://github.com/shubhangsingh6023/FireIce
+```
 
 2. Navigate to the project directory:
 
@@ -25,13 +28,19 @@ cd react-app
 
 3. Install the dependencies:
 
-### ```npm install```
+### 
+```
+npm install
+```
 
 ### Running the app
 
 1. Start the development server:
 
-### ```npm start```
+### 
+```
+npm start
+```
 
 2. Open your web browser and go to [http://localhost:3000/]. You should see the app running.
 
