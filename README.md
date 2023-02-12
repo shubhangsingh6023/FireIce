@@ -18,7 +18,10 @@ You need to have Node.js and npm installed on your machine.
 
 2. Navigate to the project directory:
 
-### ```cd react-app```
+### 
+```
+cd react-app
+```
 
 3. Install the dependencies:
 
